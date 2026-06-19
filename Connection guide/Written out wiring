@@ -1,1 +1,12 @@
-a
+Charge controller load/Power source + → Buck Converter IN+, TMC2209 Vs +, Capacitor +
+Charge controller load/Power source -  → Buck Converter IN-, TMC2209 Vs -, Capacitor -
+Buck Converter OUT+ → TMC2209 VDD +, PIR Vcc +, ESP32 + (after uploading code is done)
+Buck Converter OUT- → TMC2209 VDD -, PIR Vcc -, ESP32 -
+ESP32 Pin 1 → TMC2209 STEP
+ESP32 Pin 2 → TMC2209 DIR
+ESP32 Pin 3 → TMC2209 EN
+ESP32 Pin 4 → PIR Vo
+TMC2209 A2 → stepper motor coil a
+TMC2209 B2 → stepper motor coil a
+TMC2209 A1 → stepper motor coil b
+TMC 2209 B1 → stepper motor coil b
