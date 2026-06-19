@@ -10,6 +10,8 @@ You will also need to modify the code to use your own trained Edge Impulse model
 ---------------------------------------------------
 Misc
 
+THIS IS NOT A BEGINNER-FRIENDLY TUTORIAL!!! WE ASSUME HERE THAT YOU ARE ALREADY FAMILIAR WITH BASIC ELECTRONIC COMPONENTS AND SOLDERING. CHECK THE DATASHEETS/PINOUTS ON YOUR COMPONENTS IF THEY DON’T MATCH THE RECOMMENDATIONS, AS THE WIRING AND SOME SETUP WILL BE DIFFERENT.
+
 This project was initially meant to be used for Trap-Neuter-Return, but after consulation with multiple TNR organizations we decided to 
 repurpose it as a house-cat build.
 
