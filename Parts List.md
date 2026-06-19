@@ -1,12 +1,15 @@
 Disclaimer: FurNow is not affiliated with or sponsored by any companies manufacturing or selling these components. 
 These are just what we used/recommendations, but you are free to decide what to purchase based on the specifications of your replication
+
 --------------------------------------------------------------------------------
 Power Source
-Uses the same one as SolarCat. Only the battery is required 
+
+Uses the same one as SolarCat. Only the battery is required.
 
 -Charge controller (10A is well over enough for this build) 
 -Solar panel (10W)
 -12V Battery (Ah rating corresponds to battery life, I used 6Ah)
+
 --------------------------------------------------------------------------------
 Other electronic components
                     
@@ -16,6 +19,7 @@ Other electronic components
 -Stepper motor
 -3.3v buck converter
 -tmc2209 motor driver (better than 2208) (a4988 is a cheaper but worse alternative; it’s pretty much plug and play the same except for setting up the VREF)
+
 --------------------------------------------------------------------------------
 Misc
                                           
