@@ -19,6 +19,15 @@ The usage of a stepper motor might seem excessive, but it felt better for outdoo
 If I were to remake this build, I would use a gearmotor with an encoder or simply limit switches. However, it isn't a priority at the moment since I want to 
 work on another TNR-centered build that fixes the issues with this one.
 
-This repository is created to be used alongside the FurNow video tutorials for guidance on the assembly. 
+This repository is created to be used alongside the FurNow video tutorials for guidance on the assembly.
+
+  Pre-build (making the shelter):
+    https://www.tiktok.com/@fur.now_feline.shelter/video/7465145906791271710
+
+  Part 1: setting up the esp32 to work with the arduino ide and Edge Impulse TinyML
+    https://www.tiktok.com/@fur.now_feline.shelter/photo/7579754883780316446
+
+  Part 2: Building everything!
+    https://www.tiktok.com/@fur.now_feline.shelter/photo/7604278140084440351
 
 (Part of the shifting of my projects made before 6/19/26 from google docs to GitHub)
