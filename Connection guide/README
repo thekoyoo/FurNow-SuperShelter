@@ -4,3 +4,13 @@ Additionally, if you’re using a different motor driver, the pin names should s
 
 As mentioned previously, this build is adapted off of the SolarCat so it uses the same power source
 You don't have to use it as long as whatever you use supplies enough power but this tutorial assumes you do. 
+-------------------------------------------------------------------------------------------------------------------------
+Motor Driver Current Limiting
+
+We NEED to limit the current hitting the motor by setting a Vref value
+For the TMC2209, we can calculate the attatched formula:
+
+You can also use this calculator: https://learn.watterott.com/silentstepstick/faq/#calculator-tmc21xx-and-tmc2209 (recommended lol)
+For our purposes, 0.99V (~0.7A) should be enough. If your motor isn’t working properly, try setting Vref lower.
+You can change Vref by twisting the knob on the TMC2209 with a screwdriver and measuring the current entering across any connection from the driver to the motor (make sure the voltage is plugged in). DO NOT USE THE VREF PIN!!!
+The formula is different for different motor drivers if you use them.
